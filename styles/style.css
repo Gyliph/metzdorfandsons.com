@@ -1,0 +1,40 @@
+.header,
+.sub-header{
+	font-weight: bold;
+}
+
+.jumbotron{
+	margin-bottom: 0;
+}
+
+.signature{
+	position: absolute;
+	bottom: 5px;
+	right: 5px;
+	text-align: right;
+}
+
+.navbar-nav .nav-item .nav-link .img-fluid{
+	max-width: 38px;
+}
+
+@media (min-width: 900px){
+	.navbar-left > li{
+		padding-right: 1.5rem;
+		padding-left: 1.5rem;
+	}
+}
+
+@media (min-width: 1200px){
+	.navbar-left > li{
+		padding-right: 2.5rem;
+		padding-left: 2.5rem;
+	}
+}
+
+@media (min-width: 1500px){
+	.navbar-left > li{
+		padding-right: 3.5rem;
+		padding-left: 3.5rem;
+	}
+}
