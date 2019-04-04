@@ -20,59 +20,100 @@
 
   <!-- Bootstrap JS -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+  <!-- Custom Script -->
+  <script src="scripts/main.js"></script>
 </head>
 <body>
 
 <!-- Header -->
-<div class="jumbotron jumbotron-fluid">
-  <div class="container">
-    <h1 class="header">Metzdorf & Sons</h1>
-    <p class="sub-header">Home Inspections LLC</p>
-  </div>
+<div class="jumbotron jumbotron-fluid mb-0">
+    <div class="container">
+        <h1 class="header font-weight-bold">Metzdorf & Sons</h1>
+        <p class="sub-header font-weight-bold">Home Inspections LLC</p>
+    </div>
 </div>
 
 <!-- Navbar -->
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
   <div class="container-fluid">
     <div class="collapse navbar-collapse" id="metzdorf-navbar">
-      <ul class="navbar-nav navbar-left">
-        <li class="nav-item">
-          <a class="nav-link" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Services</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">FAQs</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
-        </li>
-      </ul>      
-
-      <ul class="navbar-nav navbar-right">
-        <li class="nav-item">
-          <a class="nav-link" href="#"><button type="button" class="btn btn-success">Schedule an inspection!</button></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#"><img class="img-fluid" src="images/facebook.png" class="rounded" alt="Facebook"></a>
-        </li>
-      </ul>
+    <ul class="navbar-nav navbar-left">
+      <li class="nav-item">
+        <a class="nav-link" href="">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="services">Services</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="faqs">FAQs</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact">Contact</a>
+      </li>
+    </ul>      
     </div>
 
-    <ul class="navbar-nav navbar-right">
-      <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#metzdorf-navbar">
+    <ul class="navbar-nav navbar-left">
+    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#metzdorf-navbar">
         <span class="navbar-toggler-icon"></span>                     
-      </button>
+    </button>
+    </ul>
+
+    <ul class="navbar-nav navbar-right">
+    <li class="nav-item">
+        <a class="nav-link" href="#"><button type="button" class="btn btn-success schedule-inspection-button">Schedule an inspection!</button></a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="https://www.facebook.com/Metzdorf-Sons-Home-Inspections-LLC-1443671769184861/"><img src="images/facebook.png" class="img-fluid rounded facebook-button" alt="Facebook"></a>
+    </li>
     </ul>
   </div>
 </nav>
 
+<div class="content container-fluid align-top mt-3 bg-light rounded shadow">
+  <!-- Image carousel -->
+  <div id="metzdorf-carousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ul class="carousel-indicators">
+      <li data-target="#metzdorf-carousel" data-slide-to="0" class="active"></li>
+      <li data-target="#metzdorf-carousel" data-slide-to="1"></li>
+      <li data-target="#metzdorf-carousel" data-slide-to="2"></li>
+    </ul>
+  
+    <!-- The slideshow -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/home/3IDDTL5QAPON1516141976279.jpg" alt="Los Angeles">
+      </div>
+      <div class="carousel-item">
+        <img src="images/home/6EYHBIQQVPGV1516141975767.jpg" alt="Chicago">
+      </div>
+      <div class="carousel-item">
+        <img src="images/home/7KF93I7WI5571516141975739.jpg" alt="New York">
+      </div>
+    </div>
+  
+    <!-- Left and right controls -->
+    <a class="carousel-control-prev" href="#metzdorf-carousel" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#metzdorf-carousel" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
+  </div>
+
+  <!-- General info -->
+  <div class="container-fluid general-info py-3">
+    Home
+  </div>
+</div>
+
 <!-- Signature -->
-<div class="signature">
+<div class="signature align-bottom text-right">
   Created by jeff@gyliph.com
 </div>
 
