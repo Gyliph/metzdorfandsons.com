@@ -20,16 +20,32 @@ html, body{
 	padding-left: .25rem;
 }
 
-.jumbotron,
-.content{
-	background: #e9ecef;
-}
-
 .carousel-item > img{
 	max-width: 100%;
 	display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.carousel-control-next,
+.carousel-control-prev{
+	width: 50%;
+}
+
+.carousel-control-next{
+	justify-content: right;
+}
+
+.carousel-control-prev{
+	justify-content: left;
+}
+
+.carousel-control-prev-icon{
+	margin-left: 25%;
+}
+
+.carousel-control-next-icon{
+	margin-right: 25%;
 }
 
 @media (max-width: 899px){
