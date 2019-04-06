@@ -32,25 +32,13 @@ html, body{
     margin-right: auto;
 }
 
-.carousel-control-next,
-.carousel-control-prev{
-	width: 50%;
+.carousel,
+.carousel-inner{
+	display: inline-block;
 }
 
-.carousel-control-next{
-	justify-content: right;
-}
-
-.carousel-control-prev{
-	justify-content: left;
-}
-
-.carousel-control-prev-icon{
-	margin-left: 25%;
-}
-
-.carousel-control-next-icon{
-	margin-right: 25%;
+.carousel-item{
+	transition: none;
 }
 
 .training-and-organizations img{
