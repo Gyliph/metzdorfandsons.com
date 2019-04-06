@@ -7,6 +7,11 @@ html, body{
 	margin-bottom: 0;
 }
 
+.header,
+.sub-header{
+	font-weight: bold;
+}
+
 .navbar-nav .nav-item .nav-link .img-fluid{
 	max-width: 38px;
 }
@@ -48,6 +53,12 @@ html, body{
 	margin-right: 25%;
 }
 
+.training-and-organizations img{
+	max-height: 100px;
+	padding: 5px;
+	background: white;
+}
+
 @media (max-width: 899px){
 	.navbar-left > li{
 		padding-right: .5rem;
@@ -60,6 +71,10 @@ html, body{
 
 	.content{
 		width: 90%;
+	}
+
+	.signature{
+		margin-right: 5%;
 	}
 }
 @media (max-width: 600px){
@@ -74,6 +89,10 @@ html, body{
 
 	.content{
 		width: 95%;
+	}
+
+	.signature{
+		margin-right: 2.5%;
 	}
 }
 
@@ -90,6 +109,10 @@ html, body{
 	.content{
 		width: 80%;
 	}
+
+	.signature{
+		margin-right: 10%;
+	}
 }
 @media (min-width: 1200px){
 	.navbar-left > li{
@@ -104,6 +127,10 @@ html, body{
 	.content{
 		width: 70%;
 	}
+
+	.signature{
+		margin-right: 15%;
+	}
 }
 @media (min-width: 1500px){
 	.navbar-left > li{
@@ -117,5 +144,9 @@ html, body{
 
 	.content{
 		width: 60%;
+	}
+
+	.signature{
+		margin-right: 20%;
 	}
 }
