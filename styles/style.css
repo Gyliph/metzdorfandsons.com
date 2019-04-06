@@ -37,7 +37,9 @@ html, body{
 	display: inline-block;
 }
 
-.carousel-item{
+.carousel-item,
+.carousel-control-prev,
+.carousel-control-next{
 	transition: none;
 }
 
