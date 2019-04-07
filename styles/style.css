@@ -43,7 +43,13 @@ html, body{
 	transition: none;
 }
 
-.training-and-organizations img{
+.list-group .list-group-item{
+	background-color: #e9ecef;
+	border-color: #212529;
+}
+
+.organization-link img,
+.training-link img{
 	max-height: 100px;
 	padding: 5px;
 	background: white;
