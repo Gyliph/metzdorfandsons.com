@@ -3,13 +3,67 @@ html, body{
 	width: 100%;
 }
 
-.jumbotron{
+/* .jumbotron{
 	margin-bottom: 0;
+}
+
+.jumbotron .container{
+	height: 80px;
+}
+
+.logo-container .img-fluid{
+	max-height: 80px;
 }
 
 .header,
 .sub-header{
 	font-weight: bold;
+} */
+
+.header-container{
+	height: 200px;
+	width: 100%;
+}
+
+.header-container .img-fluid{
+	position: relative;
+	display: block;
+	float: left;
+	z-index: 2;
+	max-height: 200px;
+}
+
+.header-container .header-left{
+	position: relative;
+	display: block;
+	float: left;
+	height: 100%;
+	width: 10%;
+	z-index: 2;
+}
+
+.header-left .top-part{
+	position: relative;
+	width: 100%;
+	height: 63.6%;
+	background: #18162E;
+	top: 0;
+}
+
+.header-left .bottom-part{
+	position: relative;
+	width: 100%;
+	height: 36.4%;
+	background: white;
+	bottom: 0;
+}
+
+.header-container .header-right{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	background: red;
 }
 
 .navbar-nav .nav-item .nav-link .img-fluid{
@@ -91,6 +145,25 @@ html, body{
 		margin-right: 2.5%;
 	}
 }
+@media (max-width: 400px){
+	.header-container{
+		height: 150px;
+	}
+	
+	.header-container .img-fluid{
+		max-height: 150px;
+	}
+}
+@media (max-width: 300px){
+	.header-container{
+		display: none;
+	}
+	
+	.header-container .img-fluid{
+		display: none;
+	}
+}
+
 
 @media (min-width: 900px){
 	.navbar-left > li{
