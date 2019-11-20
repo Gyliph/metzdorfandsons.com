@@ -230,13 +230,13 @@ html, body{
 		overflow: hidden;
 	}
 }
-@media (min-width: 300px){
+@media (max-width: 399px){
 	.facebook-highlight{
 		display: block;
 		overflow: scroll;
 	}
 }
-@media (max-width: 299px){
+@media (max-width: 300px){
 	.facebook-highlight{
 		display: none;
 	}
