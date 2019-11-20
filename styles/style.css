@@ -20,6 +20,11 @@ html, body{
 	font-weight: bold;
 } */
 
+.facebook-highlight{
+	width: 100%;
+	overflow: auto;
+}
+
 .header-container{
 	height: 200px;
 	width: 100%;
@@ -217,5 +222,22 @@ html, body{
 
 	.signature{
 		margin-right: 20%;
+	}
+}
+
+@media (min-width: 400px){
+	.facebook-highlight{
+		overflow: hidden;
+	}
+}
+@media (min-width: 300px){
+	.facebook-highlight{
+		display: block;
+		overflow: scroll;
+	}
+}
+@media (max-width: 299px){
+	.facebook-highlight{
+		display: none;
 	}
 }
